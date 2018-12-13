@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="ASCII"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="root" nodeTypeId="lumin.root" modelId="lumin" version="1.11.0">
+  <property id="name" value="root"/>
+  <node name="uiScrollView1" nodeTypeId="lumin.ui.scrollView">
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="maxExtent"/>
+    <property id="minExtent"/>
+    <property id="name" value="uiScrollView1"/>
+    <property id="offset"/>
+    <property id="position">
+      <property id="x" value="-0.2"/>
+    </property>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="scrollBounds">
+      <property id="min">
+        <property id="x" value="-0.497512437"/>
+        <property id="y" value="-0.3482587064"/>
+        <property id="z" value="-0.1492537313"/>
+      </property>
+      <property id="max">
+        <property id="x" value="0.497512437"/>
+        <property id="y" value="0.3482587064"/>
+        <property id="z" value="0.1492537313"/>
+      </property>
+    </property>
+    <node name="EmergButtonLinLay" nodeTypeId="lumin.ui.linearLayout">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemAlignment">
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="EmergButtonLinLay"/>
+      <property id="position">
+        <property id="x" value="-0.28"/>
+        <property id="y" value="0.25"/>
+      </property>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <node name="uiLinearLayout1" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment"/>
+        <property id="defaultItemAlignment">
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment">
+          <property id="0">
+            <property id="itemAlignment"/>
+          </property>
+        </property>
+        <property id="itemPadding"/>
+        <property id="name" value="uiLinearLayout1"/>
+        <property id="position">
+          <property id="x" value="0.5"/>
+          <property id="y" value="0.5"/>
+        </property>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <property id="skipInvisibleItems" value="true"/>
+        <node name="eclipseLabel1" nodeTypeId="lumin.eclipse.label">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="boundsSize"/>
+          <property id="eclipseLabelType" value="T3"/>
+          <property id="external" value="true"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="eclipseLabel1"/>
+          <property id="position">
+            <property id="x" value="0.4"/>
+          </property>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="text" value=""/>
+          <property id="textAlignment" value="Center"/>
+          <property id="textColor" value="0.702 0.102 0.102 1"/>
+          <property id="textSize" value="0.04"/>
+          <property id="textSizeChanged" value="true"/>
+          <handler generated="true" handlerName="EmergLabel">
+            <callbacks>onUpdate</callbacks>
+          </handler>
+        </node>
+        <node name="SSSL_LinearLayout" nodeTypeId="lumin.ui.linearLayout">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemAlignment"/>
+          <property id="defaultItemPadding">
+            <property id="top" value="0.01"/>
+            <property id="right" value="0.05"/>
+            <property id="bottom" value="0.01"/>
+            <property id="left" value="0.05"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="itemAlignment"/>
+          <property id="itemPadding"/>
+          <property id="name" value="SSSL_LinearLayout"/>
+          <property id="orientation" value="Horizontal"/>
+          <property id="position">
+            <property id="x" value="0.8"/>
+            <property id="y" value="50.0"/>
+          </property>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size"/>
+          <node name="SSSL_EmergencyList" nodeTypeId="lumin.ui.dropDownList">
+            <property id="dropDownListItem">
+              <property id="0" value="chest pain"/>
+              <property id="1" value="difficulty breathing"/>
+              <property id="2" value="dizzy/fainting"/>
+              <property id="3" value="heart palpatations"/>
+              <property id="4" value="other"/>
+            </property>
+            <property id="external" value="true"/>
+            <property id="gravityWellEnabled" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="iconSize"/>
+            <property id="listTextSize" value="0.025"/>
+            <property id="maxHeight" value="0.3"/>
+            <property id="name" value="SSSL_EmergencyList"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="EMERGENCY"/>
+            <property id="textColor" value="0.702 0.102 0.102 1"/>
+            <property id="textSize" value="0.05"/>
+            <handler generated="true" handlerName="SingleSelectSingleLevelHandlers">
+              <callbacks>onSelectionChanged</callbacks>
+            </handler>
+            <handler generated="true" handlerName="EmergHandler">
+              <callbacks>onActivate</callbacks>
+              <callbacks>onEnabled</callbacks>
+              <callbacks>onPressed</callbacks>
+              <callbacks>onHoverEnter</callbacks>
+            </handler>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node name="helpButtonLinLay" nodeTypeId="lumin.ui.linearLayout">
+      <property id="alignment">
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemAlignment">
+        <property id="horizontalAlignment" value="Center"/>
+      </property>
+      <property id="defaultItemPadding">
+        <property id="top" value="0.01"/>
+        <property id="right" value="0.01"/>
+        <property id="bottom" value="0.01"/>
+        <property id="left" value="0.01"/>
+      </property>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="itemAlignment"/>
+      <property id="itemPadding"/>
+      <property id="name" value="helpButtonLinLay"/>
+      <property id="position">
+        <property id="x" value="-0.28"/>
+        <property id="y" value="0.125"/>
+      </property>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="size"/>
+      <node name="helpButtonLinLay1" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment"/>
+        <property id="defaultItemAlignment"/>
+        <property id="defaultItemPadding"/>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment"/>
+        <property id="itemPadding"/>
+        <property id="name" value="helpButtonLinLay1"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <node name="helpEclipseLabel" nodeTypeId="lumin.eclipse.label">
+          <property id="alignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="boundsSize"/>
+          <property id="eclipseLabelType" value="T3"/>
+          <property id="external" value="true"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="helpEclipseLabel"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="text" value=""/>
+          <property id="textAlignment" value="Center"/>
+          <property id="textSize" value="0.035"/>
+          <property id="textSizeChanged" value="true"/>
+          <handler generated="true" handlerName="helpLabelHandler">
+            <callbacks>onUpdate</callbacks>
+          </handler>
+        </node>
+        <node name="helpListLinLay" nodeTypeId="lumin.ui.linearLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment"/>
+          <property id="defaultItemPadding">
+            <property id="top" value="0.01"/>
+            <property id="right" value="0.05"/>
+            <property id="bottom" value="0.01"/>
+            <property id="left" value="0.05"/>
+          </property>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="itemAlignment"/>
+          <property id="itemPadding"/>
+          <property id="name" value="helpListLinLay"/>
+          <property id="orientation" value="Horizontal"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size"/>
+          <node name="helpList" nodeTypeId="lumin.ui.dropDownList">
+            <property id="dropDownListItem">
+              <property id="0" value="water"/>
+              <property id="1" value="blankets"/>
+              <property id="2" value="snack"/>
+              <property id="3" value="sleep"/>
+              <property id="4" value="adjust bed"/>
+            </property>
+            <property id="external" value="true"/>
+            <property id="gravityWellEnabled" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="iconSize"/>
+            <property id="listTextSize" value="0.025"/>
+            <property id="maxHeight" value="0.3"/>
+            <property id="name" value="helpList"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Request"/>
+            <property id="textSize" value="0.05"/>
+            <handler generated="true" handlerName="helpListHandler">
+              <callbacks>onHoverEnter</callbacks>
+              <callbacks>onActivate</callbacks>
+              <callbacks>onSelectionChanged</callbacks>
+              <callbacks>onEnabled</callbacks>
+              <callbacks>onUpdate</callbacks>
+            </handler>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="FoodButtonGridLayout1" nodeTypeId="lumin.ui.gridLayout">
+    <property id="alignment"/>
+    <property id="column" value="2"/>
+    <property id="defaultItemAlignment">
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="defaultItemPadding"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="itemAlignment"/>
+    <property id="itemPadding"/>
+    <property id="name" value="FoodButtonGridLayout1"/>
+    <property id="position">
+      <property id="x" value="-0.75"/>
+      <property id="y" value="0.1"/>
+    </property>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="size"/>
+    <node name="FoodLabel3" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment"/>
+      <property id="boundsSize"/>
+      <property id="eclipseLabelType" value="T3"/>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="FoodLabel3"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value=""/>
+      <property id="textSize" value="0.034143"/>
+    </node>
+    <node name="transform1" nodeTypeId="lumin.transform">
+      <property id="name" value="transform1"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <node name="FoodButtonLinLay" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemAlignment">
+          <property id="verticalAlignment" value="Bottom"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.02"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.02"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment">
+          <property id="0">
+            <property id="nodeId" value="foodRectLayout1"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Center"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="foodRectLayout2"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Center"/>
+            </property>
+          </property>
+        </property>
+        <property id="itemPadding">
+          <property id="0">
+            <property id="nodeId" value="foodRectLayout1"/>
+            <property id="itemPadding">
+              <property id="right" value="0.02"/>
+              <property id="bottom" value="0.01"/>
+              <property id="left" value="0.02"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="foodRectLayout2"/>
+            <property id="itemPadding">
+              <property id="top" value="0.01"/>
+              <property id="right" value="0.01"/>
+              <property id="bottom" value="0.01"/>
+              <property id="left" value="0.01"/>
+            </property>
+          </property>
+        </property>
+        <property id="name" value="FoodButtonLinLay"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <node name="foodRectLayout1" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="foodRectLayout1"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.2167"/>
+            <property id="y" value="0.05417"/>
+          </property>
+          <node name="foodEclipseButton" nodeTypeId="lumin.eclipse.button">
+            <property id="eclipseButtonType" value="TextWithIcon"/>
+            <property id="external" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="roundness" value="1.0"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="height" value="0.1083"/>
+            <property id="iconSize"/>
+            <property id="iconSizeSelector">
+              <property id="useScaledDefault" value="false"/>
+              <property id="iconSize">
+                <property id="x" value="0.0635"/>
+                <property id="y" value="0.0635"/>
+              </property>
+            </property>
+            <property id="iconType" value="Cookie"/>
+            <property id="name" value="foodEclipseButton"/>
+            <property id="outlineButton" value="true"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Meal"/>
+            <property id="width" value="0.4333"/>
+            <handler generated="true" handlerName="TextWithIconOutlinedButtonHandlers">
+              <callbacks>onHoverEnter</callbacks>
+              <callbacks>onHoverExit</callbacks>
+              <callbacks>onActivate</callbacks>
+              <callbacks>onLongPress</callbacks>
+            </handler>
+          </node>
+        </node>
+        <node name="foodRectLayout2" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="foodRectLayout2"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.2167"/>
+            <property id="y" value="0.054167"/>
+          </property>
+          <node name="BES_Label6" nodeTypeId="lumin.eclipse.label">
+            <property id="alignment"/>
+            <property id="boundsSize"/>
+            <property id="eclipseLabelType" value="B4"/>
+            <property id="external" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="BES_Label6"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value=""/>
+            <property id="textSize" value="0.029812"/>
+            <handler generated="true" handlerName="TextWithIconOutlinedLabelHandler">
+              <callbacks>onUpdate</callbacks>
+            </handler>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="washroomButtonGridLay" nodeTypeId="lumin.ui.gridLayout">
+    <property id="alignment"/>
+    <property id="column" value="2"/>
+    <property id="defaultItemAlignment">
+      <property id="horizontalAlignment" value="Center"/>
+    </property>
+    <property id="defaultItemPadding"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="itemAlignment"/>
+    <property id="itemPadding"/>
+    <property id="name" value="washroomButtonGridLay"/>
+    <property id="position">
+      <property id="x" value="-0.5"/>
+      <property id="y" value="0.1"/>
+    </property>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="size"/>
+    <node name="washroomLabel" nodeTypeId="lumin.eclipse.label">
+      <property id="alignment"/>
+      <property id="boundsSize"/>
+      <property id="eclipseLabelType" value="T3"/>
+      <property id="gravityWellProperties">
+        <property id="boundaryShape">
+          <property id="size"/>
+          <property id="offset"/>
+        </property>
+      </property>
+      <property id="name" value="washroomLabel"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <property id="text" value=""/>
+      <property id="textSize" value="0.034143"/>
+    </node>
+    <node name="transformWashroom" nodeTypeId="lumin.transform">
+      <property id="name" value="transformWashroom"/>
+      <property id="position"/>
+      <property id="rotation"/>
+      <property id="scale"/>
+      <node name="washroomButLinLay" nodeTypeId="lumin.ui.linearLayout">
+        <property id="alignment">
+          <property id="verticalAlignment" value="Center"/>
+          <property id="horizontalAlignment" value="Center"/>
+        </property>
+        <property id="defaultItemAlignment"/>
+        <property id="defaultItemPadding">
+          <property id="top" value="0.01"/>
+          <property id="right" value="0.02"/>
+          <property id="bottom" value="0.01"/>
+          <property id="left" value="0.02"/>
+        </property>
+        <property id="gravityWellProperties">
+          <property id="boundaryShape">
+            <property id="size"/>
+            <property id="offset"/>
+          </property>
+        </property>
+        <property id="itemAlignment">
+          <property id="0">
+            <property id="nodeId" value="washroomRectLay1"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Center"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="washroomRectLay2"/>
+            <property id="itemAlignment">
+              <property id="verticalAlignment" value="Bottom"/>
+              <property id="horizontalAlignment" value="Center"/>
+            </property>
+          </property>
+        </property>
+        <property id="itemPadding">
+          <property id="0">
+            <property id="nodeId" value="washroomRectLay1"/>
+            <property id="itemPadding">
+              <property id="right" value="0.02"/>
+              <property id="bottom" value="0.01"/>
+              <property id="left" value="0.02"/>
+            </property>
+          </property>
+          <property id="1">
+            <property id="nodeId" value="washroomRectLay2"/>
+            <property id="itemPadding">
+              <property id="top" value="0.01"/>
+              <property id="right" value="0.01"/>
+              <property id="bottom" value="0.01"/>
+              <property id="left" value="0.01"/>
+            </property>
+          </property>
+        </property>
+        <property id="name" value="washroomButLinLay"/>
+        <property id="position"/>
+        <property id="rotation"/>
+        <property id="scale"/>
+        <property id="size"/>
+        <node name="washroomRectLay1" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="washroomRectLay1"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.2167"/>
+            <property id="y" value="0.05417"/>
+          </property>
+          <node name="washroomEclipseBut" nodeTypeId="lumin.eclipse.button">
+            <property id="eclipseButtonType" value="TextWithIcon"/>
+            <property id="external" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="height" value="0.1083"/>
+            <property id="iconSize"/>
+            <property id="iconSizeSelector">
+              <property id="useScaledDefault" value="false"/>
+              <property id="iconSize">
+                <property id="x" value="0.0635"/>
+                <property id="y" value="0.0635"/>
+              </property>
+            </property>
+            <property id="iconType" value="Report"/>
+            <property id="name" value="washroomEclipseBut"/>
+            <property id="outlineButton" value="true"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value="Washroom"/>
+            <property id="width" value="0.4333"/>
+            <handler generated="true" handlerName="washroomButtonHandler">
+              <callbacks>onHoverEnter</callbacks>
+              <callbacks>onHoverExit</callbacks>
+              <callbacks>onActivate</callbacks>
+              <callbacks>onLongPress</callbacks>
+            </handler>
+          </node>
+        </node>
+        <node name="washroomRectLay2" nodeTypeId="lumin.ui.rectLayout">
+          <property id="alignment"/>
+          <property id="defaultItemAlignment">
+            <property id="verticalAlignment" value="Center"/>
+            <property id="horizontalAlignment" value="Center"/>
+          </property>
+          <property id="defaultItemPadding"/>
+          <property id="gravityWellProperties">
+            <property id="boundaryShape">
+              <property id="size"/>
+              <property id="offset"/>
+            </property>
+          </property>
+          <property id="name" value="washroomRectLay2"/>
+          <property id="position"/>
+          <property id="rotation"/>
+          <property id="scale"/>
+          <property id="size">
+            <property id="x" value="0.2167"/>
+            <property id="y" value="0.05417"/>
+          </property>
+          <node name="washroomEclipseLabel" nodeTypeId="lumin.eclipse.label">
+            <property id="alignment"/>
+            <property id="boundsSize"/>
+            <property id="eclipseLabelType" value="B4"/>
+            <property id="external" value="true"/>
+            <property id="gravityWellProperties">
+              <property id="boundaryShape">
+                <property id="size"/>
+                <property id="offset"/>
+              </property>
+            </property>
+            <property id="name" value="washroomEclipseLabel"/>
+            <property id="position"/>
+            <property id="rotation"/>
+            <property id="scale"/>
+            <property id="text" value=""/>
+            <property id="textSize" value="0.029812"/>
+            <handler generated="true" handlerName="washroomLabelHandler">
+              <callbacks>onUpdate</callbacks>
+            </handler>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="internetButton" nodeTypeId="lumin.eclipse.button">
+    <property id="eclipseButtonType" value="IconWithLabel"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="height" value="0.1083"/>
+    <property id="iconSize"/>
+    <property id="iconSizeSelector">
+      <property id="useScaledDefault" value="false"/>
+      <property id="iconSize">
+        <property id="x" value="0.0635"/>
+        <property id="y" value="0.0635"/>
+      </property>
+    </property>
+    <property id="iconType" value="NetworkServer"/>
+    <property id="name" value="internetButton"/>
+    <property id="position">
+      <property id="x" value="0.5"/>
+      <property id="y" value="0.15"/>
+    </property>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="text" value="internet"/>
+  </node>
+  <node name="calendarButton" nodeTypeId="lumin.eclipse.button">
+    <property id="eclipseButtonType" value="IconWithLabel"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="height" value="0.1083"/>
+    <property id="iconSize"/>
+    <property id="iconSizeSelector">
+      <property id="useScaledDefault" value="false"/>
+      <property id="iconSize">
+        <property id="x" value="0.0635"/>
+        <property id="y" value="0.0635"/>
+      </property>
+    </property>
+    <property id="iconType" value="Calendar"/>
+    <property id="name" value="calendarButton"/>
+    <property id="outlineButton" value="true"/>
+    <property id="position">
+      <property id="x" value="0.2"/>
+      <property id="y" value="0.15"/>
+    </property>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="text" value="calendar"/>
+  </node>
+  <node name="emailButton" nodeTypeId="lumin.eclipse.button">
+    <property id="eclipseButtonType" value="IconWithLabel"/>
+    <property id="gravityWellProperties">
+      <property id="boundaryShape">
+        <property id="size"/>
+        <property id="offset"/>
+      </property>
+    </property>
+    <property id="height" value="0.1083"/>
+    <property id="iconSize"/>
+    <property id="iconSizeSelector">
+      <property id="useScaledDefault" value="false"/>
+      <property id="iconSize">
+        <property id="x" value="0.0635"/>
+        <property id="y" value="0.0635"/>
+      </property>
+    </property>
+    <property id="iconType" value="Send"/>
+    <property id="name" value="emailButton"/>
+    <property id="outlineButton" value="true"/>
+    <property id="position">
+      <property id="x" value="0.35"/>
+      <property id="y" value="0.15"/>
+    </property>
+    <property id="rotation"/>
+    <property id="scale"/>
+    <property id="text" value="email"/>
+  </node>
+</design:rootNode>

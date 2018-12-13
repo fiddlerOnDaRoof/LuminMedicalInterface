@@ -1,0 +1,3 @@
+DATAS = \
+	ListsLayoutScene.scene.res.xml : assets/ListsLayoutScene.scene.res.xml \
+	ListsLayoutScene.scene.xml : assets/ListsLayoutScene.scene.xml

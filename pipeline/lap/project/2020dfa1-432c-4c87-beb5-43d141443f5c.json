@@ -1,0 +1,23 @@
+{
+  "id": "2020dfa1-432c-4c87-beb5-43d141443f5c",
+  "processor": "lap/types/processor/model_from_fbx",
+  "input": {
+    "model": [
+      {
+        "path": "C:/Users/micha/Downloads/cube.fbx",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "model": [
+      {
+        "path": "c-4c87-beb5-43d141443f5c/cube.fbx",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

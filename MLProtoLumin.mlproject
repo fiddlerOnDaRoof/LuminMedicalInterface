@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ASCII"?>
+<mlproject:mlproject xmlns:mlproject="http://www.magicleap.com/uidesigner/mlproject" generated="true" srcGenVersion="1">
+  <designFile path="ListsLayoutScene.design"/>
+  <pipelineDirectory path="pipeline"/>
+</mlproject:mlproject>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MLProtoLumin", "MLProtoLumin.vcxproj", "{2EBFDD29-65C7-479E-920A-83E7A20109CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ML = Debug|ML
+		Debug|x64 = Debug|x64
+		Release|ML = Release|ML
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EBFDD29-65C7-479E-920A-83E7A20109CF}.Debug|ML.ActiveCfg = Debug|ML
+		{2EBFDD29-65C7-479E-920A-83E7A20109CF}.Debug|ML.Build.0 = Debug|ML
+		{2EBFDD29-65C7-479E-920A-83E7A20109CF}.Debug|x64.ActiveCfg = Debug|x64
+		{2EBFDD29-65C7-479E-920A-83E7A20109CF}.Debug|x64.Build.0 = Debug|x64
+		{2EBFDD29-65C7-479E-920A-83E7A20109CF}.Release|ML.ActiveCfg = Release|ML
+		{2EBFDD29-65C7-479E-920A-83E7A20109CF}.Release|ML.Build.0 = Release|ML
+		{2EBFDD29-65C7-479E-920A-83E7A20109CF}.Release|x64.ActiveCfg = Release|x64
+		{2EBFDD29-65C7-479E-920A-83E7A20109CF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {094CB697-C223-4939-B606-C8F6B5210299}
+	EndGlobalSection
+EndGlobal

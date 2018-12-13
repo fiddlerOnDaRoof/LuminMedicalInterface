@@ -1,0 +1,19 @@
+<manifest
+  xmlns:ml="magicleap"
+  ml:package="com.company.mlprotolumin"
+  ml:version_code="1"
+  ml:version_name="1.0">
+  <application
+    ml:visible_name="MLProtoLumin"
+    ml:sdk_version="1.0">
+    <component
+      ml:name=".mlprotolumin.universe"
+      ml:visible_name="MLProtoLumin"
+      ml:binary_name="bin/MLProtoLumin"
+      ml:type="Universe">
+      <icon
+        ml:model_folder=""
+        ml:portal_folder="" />
+    </component>
+  </application>
+</manifest>

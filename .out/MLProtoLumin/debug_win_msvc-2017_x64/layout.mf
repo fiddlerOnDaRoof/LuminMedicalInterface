@@ -1,0 +1,18 @@
+[
+ {
+  "dest": "assets/ListsLayoutScene.scene.res.xml",
+  "src": "C:/Users/micha/Documents/Magic Leap/Lumin Projects Current Dec09/ListsLayoutScene.scene.res.xml"
+ },
+ {
+  "dest": "assets/ListsLayoutScene.scene.xml",
+  "src": "C:/Users/micha/Documents/Magic Leap/Lumin Projects Current Dec09/ListsLayoutScene.scene.xml"
+ },
+ {
+  "dest": "assets/cube.fbx/c-4c87-beb5-43d141443f5c/cube.fbx",
+  "src": "C:/Users/micha/Documents/Magic Leap/Lumin Projects Current Dec09/pipeline/cache/assets/cube.fbx/c-4c87-beb5-43d141443f5c/cube.fbx"
+ },
+ {
+  "dest": "lr_resource_locator",
+  "src": "C:/Users/micha/MagicLeap/mlsdk/v0.18.0/.metadata/components/lr_resource_locator"
+ }
+]

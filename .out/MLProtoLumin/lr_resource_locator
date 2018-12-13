@@ -1,0 +1,2 @@
+This is simply used as a sanity check for desktop builds that the working directory is set
+correctly in order to locate resources relative to the package root directory.

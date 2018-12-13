@@ -1,0 +1,17 @@
+SRCS = \
+    src.gen/scenes.cpp \
+    src.gen/ListsLayoutScene/ListsLayoutScene.cpp \
+    src/ListsLayoutScene/eclipseLabel1/EmergLabel.cpp \
+    src/ListsLayoutScene/SSSL_EmergencyList/SingleSelectSingleLevelHandlers.cpp \
+    src/ListsLayoutScene/SSSL_EmergencyList/EmergHandler.cpp \
+    src/ListsLayoutScene/helpEclipseLabel/helpLabelHandler.cpp \
+    src/ListsLayoutScene/helpList/helpListHandler.cpp \
+    src/ListsLayoutScene/foodEclipseButton/TextWithIconOutlinedButtonHandlers.cpp \
+    src/ListsLayoutScene/BES_Label6/TextWithIconOutlinedLabelHandler.cpp \
+    src/ListsLayoutScene/washroomEclipseBut/washroomButtonHandler.cpp \
+    src/ListsLayoutScene/washroomEclipseLabel/washroomLabelHandler.cpp \
+    src.gen/PrismSceneManager.cpp \
+    src.gen/SceneDescriptor.cpp \
+    src.gen/SpawnedSceneBase.cpp \
+    src.gen/SpawnedSceneHandlers.cpp \
+    src.gen/SpawnedSceneUserData.cpp \

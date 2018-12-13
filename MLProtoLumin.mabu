@@ -1,0 +1,15 @@
+INCS = \
+	code/inc.gen/ \
+	code/inc/
+
+KIND = program
+SRCS = \
+	ButtonHandlers.cpp \
+	LabelFader.cpp \
+	code/src/MLProtoLumin.cpp \
+	code/src/main.cpp
+
+USES = \
+	code/srcs \
+	lumin_runtime
+

@@ -1,0 +1,6 @@
+MLCERT = C:\Users\micha\MagicLeap\privatekey\certone.cert
+REFS = MLProtoLumin
+USES = \
+	pipeline/cache/AssetManifest \
+	scenes
+
